@@ -1,12 +1,5 @@
 import { app } from './app'
 import { env } from './env'
-import kill from 'kill-port'
-
-const killTerminal = async () => {
-  await kill(env.PORT)
-}
-
-killTerminal()
 
 app
   .listen({
