@@ -25,11 +25,11 @@ export async function register(req: FastifyRequest, rep: FastifyReply) {
     if (err instanceof UserAlreadyExistsError) {
       return rep.status(409).send({ message: err.message })
     }
-    
+
     throw err
   }
 
-  return rep.send({
+  return rep.status(201).send({
     message: 'User created',
   })
 }

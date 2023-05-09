@@ -1,8 +1,18 @@
+###
 POST http://127.0.0.1:3333/users
 Content-Type: application/json
 
 {
   "name" : "Alan",
+  "email": "contato.alanjunqueira@gmail.com",
+  "password": "password"
+}
+
+###
+POST http://127.0.0.1:3333/sessions
+Content-Type: application/json
+
+{
   "email": "contato.alanjunqueira@gmail.com",
   "password": "password"
 }
