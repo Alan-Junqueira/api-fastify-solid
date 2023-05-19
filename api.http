@@ -16,3 +16,7 @@ Content-Type: application/json
   "email": "contato.alanjunqueira@gmail.com",
   "password": "password"
 }
+
+###
+GET http://127.0.0.1:3333/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NTg5NWI0Mi01ODYxLTQ1YzQtODJmNS1jNDdhMjQ0NjQwYjAiLCJpYXQiOjE2ODQ1Mjk5Njd9.apnFF0GTMy8hIe1CfIRb66dLceO-dX7QLxOowrOOhcA
