@@ -4,7 +4,8 @@
   "description": "",
   "main": "prisma-test-environment.ts",
   "scripts": {
-    "main": "prisma-test-environment.ts"
+    "main": "prisma-test-environment.ts",
+    "link:package": "npm link"
   },
   "keywords": [],
   "author": "",
