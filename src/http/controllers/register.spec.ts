@@ -6,7 +6,7 @@ describe('Register (e2e)', () => {
   beforeAll(async () => {
     app.ready()
   })
-  
+
   afterAll(async () => {
     app.close()
   })
