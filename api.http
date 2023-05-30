@@ -20,3 +20,13 @@ Content-Type: application/json
 ###
 GET http://127.0.0.1:3333/me
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NTg5NWI0Mi01ODYxLTQ1YzQtODJmNS1jNDdhMjQ0NjQwYjAiLCJpYXQiOjE2ODQ1Mjk5Njd9.apnFF0GTMy8hIe1CfIRb66dLceO-dX7QLxOowrOOhcA
+
+###
+PATCH  http://127.0.0.1:3333/token/refresh
+Content-Type: application/json
+Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NTg5NWI0Mi01ODYxLTQ1YzQtODJmNS1jNDdhMjQ0NjQwYjAiLCJpYXQiOjE2ODU0NzUxNjEsImV4cCI6MTY4NjA3OTk2MX0.R7l-et_ybUf3pSnLJqM-bGYbVEXBqssSfdnLh3zGD2E
+
+{
+  "email": "contato.alanjunqueira@gmail.com",
+  "password": "password"
+}

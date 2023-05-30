@@ -2,8 +2,6 @@ import { makeGetUserProfileUseCase } from '@/use-cases/factories/make-get-user-p
 import { FastifyReply, FastifyRequest } from 'fastify'
 
 export async function profile(req: FastifyRequest, rep: FastifyReply) {
-  console.log(req.headers)
-
   const getUserProfile = makeGetUserProfileUseCase()
 
   const { user } = await getUserProfile.execute({
